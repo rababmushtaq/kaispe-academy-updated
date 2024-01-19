@@ -90,7 +90,7 @@ const Feature = () => {
             style={{ background: feature.background }}
           >
             <h4>{feature.title}</h4>
-            <h6 className="text-sm tx-dark">{feature.feedback}</h6>
+            <h6 className="text-sm fw-normal tx-dark">{feature.feedback}</h6>
             {/* <p>{feature.description}</p> */}
             {/* <Image
               width={feature.width}
