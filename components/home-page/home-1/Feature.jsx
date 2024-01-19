@@ -80,7 +80,8 @@ const Feature = () => {
     <>
       {features.map((feature, index) => (
         <div
-          className="col-lg-3 col-sm-6"
+          className="col-lg-3 col-sm-6 mh-100" 
+
           key={index}
           // data-aos="fade-up"
           data-aos-delay={feature.delay}
@@ -89,7 +90,7 @@ const Feature = () => {
             className={`card-style-fifteen tran3s position-relative mt-35`}
             style={{ background: feature.background }}
           >
-            <h4>{feature.title}</h4>
+            <h5>{feature.title}</h5>
             <h6 className="text-sm fw-normal tx-dark">{feature.feedback}</h6>
             {/* <p>{feature.description}</p> */}
             {/* <Image
@@ -102,6 +103,7 @@ const Feature = () => {
             /> */}
           </div>{" "}
           {/* /.card-style-fifteen */}
+       
         </div>
       ))}
     </>
