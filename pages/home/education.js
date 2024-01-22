@@ -26,7 +26,7 @@ import Feature from "../../components/home-page/home-1/Feature";
 const education = () => {
   return (
     <>
-      <Seo pageTitle="Kaispe Academy" />
+      <Seo pageTitle="KAISPE Academy" />
       {/* <!--  =============================================
         Theme Header3 Menu
         ============================================== 	--> */}
@@ -210,10 +210,10 @@ const education = () => {
 
 
       {/* Benefits of Microsoft Power Apps Training Program */}
-      <div className="fancy-feature-thirtyFour mt-50 ">
+      <div className="fancy-feature-thirtyFour mt-50 " >
         <div className="container">
           <h2>Benefits of Microsoft Power Apps Training Program</h2>
-          <div className="row gx-xxl-5 ">
+          <div className="row gx-xxl-5" >
             <Feature />
           </div>
         </div>
@@ -222,14 +222,14 @@ const education = () => {
 
 
 
-      <div className="fancy-feature-thirtyThree mt-180 lg-mt-120" id="s2">
+      <div className="fancy-feature-thirtyThree mt-180 lg-mt-120"   id="s2">
         <div className="container">
           <div className="title-style-ten text-center" data-aos="fade-up">
             {/* <div className="sc-title">FAQ</div> */}
-            <h2 className="main-title font-recoleta fw-normal tx-dark">
+            <h2 className="main-title font-recoleta fw-normal tx-dark" >
               How It{" "}
               <span className="position-relative">
-                works <img src="/images/shape/shape_132.svg" alt="" />
+                Works <img src="/images/shape/shape_132.svg" alt="" />
               </span>
             </h2>
           </div>
@@ -238,9 +238,10 @@ const education = () => {
 
           <div
             className="bg-wrapper position-relative mt-80 lg-mt-40"
-            data-aos="fade-up"
+            data-aos="fade-up"  
           >
             <FaqEducation />
+            
             <img
               src="/images/shape/shape_133.svg"
               alt="shape"
@@ -250,10 +251,11 @@ const education = () => {
           {/* /.bg-wrapper */}
         </div>
       </div>
-
+ 
+ 
          {/* Our mission */}
-
-         <div className="container">
+   
+         <div className="container" id="s4" >
           <div className="row">
             <div className="col-lg-9 m-auto text-center" data-aos="fade-up">
               <HeroMission />
@@ -261,7 +263,7 @@ const education = () => {
             </div>
           </div>
           </div>
-
+          
       <div
         className="feedback-section-three position-relative mt-225 lg-mt-120 pb-100"
         data-data-aos="fade-up"
@@ -330,7 +332,7 @@ const education = () => {
 
       <div
         className="hero-banner-six position-relative pt-180 md-pt-150"
-        id="s4"
+        
       >{/* /.subscribe-form */}
         {/* <div className="container">
           <div className="row">
@@ -460,7 +462,7 @@ const education = () => {
           <div className="row align-items-center">
             <div className="col-lg-4 mb-30 order-lg-0">
               <div className="logo d-flex justify-content-center justify-content-lg-start">
-                <Link href="/">
+                <Link href="https://www.kaispe.com/">
                   <img src="/images/logo-black.png" alt="" width={140} />
                 </Link>
               </div>

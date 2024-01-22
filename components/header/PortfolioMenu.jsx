@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
 
+
 const navItems = [
   { title: "Home", href: "#" },
   { title: "Courses", href: "#s1" },
   { title: "How it Works", href: "#s2" },
   { title: "Why Choose", href: "#s3" },
-  { title: "Our Missions", href: "#s4" },
+  { title: "Our Mission", href: "#s4" },
   { title: "Registration", href: "https://forms.office.com/pages/responsepage.aspx?id=eZQ9Mlwlp06vTPkd6SKQ7tVQfp5gMIRHih-MJu64lCpUMllDM0wyNlhPU0E5MlJSM05RVzNKQUtOMi4u"},
 ];
 
